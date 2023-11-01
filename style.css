@@ -111,7 +111,7 @@
             margin-top: 5px;
         }
         .pods{                           /*The list at the top*/
-            font-size: 13px;
+            font-size: 10px;
             margin-left: 10px;
             margin-right: 10px;
         }
@@ -154,7 +154,7 @@
             color: white;
             border: solid 1px;
             padding: 5px;
-            font-size: 12px;
+            font-size: 11px;
         }
         .buy{
             text-decoration: none;
@@ -162,7 +162,7 @@
             background-color: white;
             border: solid 1px white;
             padding: 5px;
-            font-size: 12px;
+            font-size: 11px;
     
         }
  

@@ -1,0 +1,301 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h1{
+    color: white;
+    background: linear-gradient(55deg, red, blue, green);
+    padding: 15px;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+/*The top image and text*/
+.stack{
+    display: flex;
+    justify-content: center;
+
+}
+.stack img{
+    width: 100%;
+    height: 450px;
+}
+
+.buy-button a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
+p{
+    font-size: 2rem;
+}
+
+/*Girl in purple*/
+
+.container{
+    height: auto;
+    position: relative;
+    margin: 0;
+}
+
+.container img{
+    width: 100%;
+}
+.container .master{                 /*Text inside the picture*/
+    position: absolute;
+    font-size: 1.3rem;
+    color: white;
+    top: 40%;
+    font-weight: bolder;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/*The airpods list*/
+
+.footer{
+    display: flex;
+    text-align: center; 
+    justify-content: space-around;  
+}
+.footer img{
+    width: 45%;
+    height: 200px;
+}
+
+.footer p{
+    font-size: 1rem;
+}
+
+.end{
+    background-color: blue;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.end a{
+    text-decoration: none;
+}
+.apple{
+    color: rgb(101, 207, 248);
+}
+
+
+/*RESPONSIVE WEBSITE*/
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    body{
+        background-color: white;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    h1{
+        color: white;
+        background: linear-gradient(55deg, red, blue, green);
+        padding: 15px;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    /*The top image and text*/
+    .stack{
+        display: block;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+    .stack img{
+        width: 100%;
+        height: 250px;
+    }
+
+    .buy-button a{
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        background-color: blue;
+    }
+
+    p{
+        font-size: 1.1rem;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    /*Girl in purple*/
+    
+    .container{
+        height: auto;
+        position: relative;
+        margin: 0;
+    }
+    
+    .container img{
+        width: 100%;
+    }
+    .container .master{                 /*Text inside the picture*/
+        position: absolute;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    /*The airpods list*/
+    
+    .footer{
+        display: block;
+        text-align: center; 
+         
+    }
+    .footer img{
+        width: 45%;
+        height: 250px;
+    }
+    
+}
+
+
+
+/*IPADS*/
+@media screen and (min-width: 521px) and (max-width: 767px) {
+
+    h1{
+        color: white;
+        background: linear-gradient(55deg, red, blue, green);
+        padding: 15px;
+        font-size: 3rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .stack{
+        display: block;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+    .stack img{
+        width: 100%;
+        height: 350px;
+    }
+
+    .buy-button a{
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        background-color: blue;
+    }
+
+    .container .master{                 /*Text inside the picture*/
+        position: absolute;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+        /*The airpods list*/
+    
+    .footer{
+        display: block;
+        text-align: center; 
+            
+    }
+    .footer img{
+        width: 45%;
+        height: 300px;
+    }
+}
+
+
+/*MINI LAPTOP*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    h1{
+        font-size: 3.5rem;
+    }
+    .stack{
+        display: block;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+    .stack img{
+        width: 100%;
+        height: 400px;
+    }
+    
+        /*The airpods list*/
+
+    .footer{
+    display: block;
+    text-align: center; 
+    }
+
+    #name-and-price{
+        font-size: 1.5rem;
+
+    }
+    .footer img{
+        width: 45%;
+        height: 350px;
+    }
+}
+
+
+/*MINI LAPTOPS*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+      
+        /*The airpods list*/
+
+        .footer{
+            display: block;
+            text-align: center; 
+            }
+        
+            #name-and-price{
+                font-size: 1.5rem;
+        
+            }
+            .footer img{
+                width: 45%;
+                height: 350px;
+            }
+    
+}
+

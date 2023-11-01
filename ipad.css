@@ -1,0 +1,359 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*THE CLASS FOR THE LIST*/
+.head{
+    display: flex;
+    padding: 15px;
+    justify-content: center ;
+    background-color: rgb(197, 189, 189);   
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+/*The class for the A  list at the top*/
+.mac{
+    margin: 2rem;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*THE SEARCH BUTTON*/
+.search-button{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;   
+}
+
+/*THE DIV CLASS FOR THE SEARCH AND SELECT IOS VERSION*/
+.ipad{
+    padding: 15px;
+    margin-left: 2rem;
+}
+
+/*LABEL FOR QUESTION: SELECT VERSION*/
+label{
+    font-size: 1.5rem;
+}
+
+/*THE IOS VERSION PART*/
+#question{
+    padding: 7px;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding-right: 5rem;
+}
+/*FOR SEARCH BUTTONS*/
+#as-search-input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+/*Control theapple delivery...*/
+h1{
+    text-align: center;
+    font-style: 1.8rem;
+    font-weight: lighter;
+}
+
+.container{
+    justify-content: center;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    text-align: justify;
+    font-style: normal;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+/*All the bolds sub headings..*/
+p{
+    font-weight: bold;
+}
+
+
+/*THE HELPFUL PART*/
+.helpful{
+    justify-content: right;
+    text-align: center;
+}
+button{
+    border: solid 1px blue;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: white;
+    margin-right: 10px;
+}
+
+
+
+
+/*RESPONSIVE DESIGN*/
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    
+    /*THE CLASS FOR THE LIST*/
+    .head{
+        display: flex;
+        padding: 5px;
+        justify-content: left ;
+        background-color: rgb(197, 189, 189);   
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        margin-left: 2px;
+    }
+
+    /*The class for the A  list at the top*/
+    .mac{
+        margin: 7px;
+        color: black;
+        font-size: 12px;
+    }
+
+    .the-search,.search-button{
+        display: none;
+    }
+    /*FOR SEARCH BUTTONS*/
+
+    #as-search-input{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 7px;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: solid 1px;
+        padding-right: 5rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*Control theapple delivery...*/
+    h1{
+        text-align: center;
+        font-style: 0.8rem;
+        font-weight: bold;  
+    }
+    /*THE DIV CLASS FOR THE SEARCH AND SELECT IOS VERSION*/
+    .ipad{
+        padding: 15px;
+        margin-left: 1rem;
+    }
+    .container{
+        justify-content: center;
+        margin-left: 13px;
+        margin-right: 13px;
+        text-align: justify;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+}
+
+/*FOR IPADS*/
+@media screen and (min-width: 521px) and (max-width: 767px) {
+
+        /*THE CLASS FOR THE LIST*/
+        .head{
+            display: flex;
+            padding: 5px;
+            justify-content: left ;
+            background-color: rgb(197, 189, 189);   
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            margin-left: 2px;
+        }
+    
+        /*The class for the A  list at the top*/
+        .mac{
+            margin: 8px;
+            color: black;
+            font-size: 20px;
+        }
+        .the-search,.search-button{
+            display: none;
+        }
+
+        /*FOR SEARCH BUTTONS*/
+        #as-search-input{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 7px;
+            font-size: 1rem;
+            border-radius: 10px;
+            border: solid 1px;
+            padding-right: 5rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+    
+        /*Control theapple delivery...*/
+        h1{
+            text-align: center;
+            font-style: 0.8rem;
+            font-weight: bold;  
+        }
+
+        /*THE DIV CLASS FOR THE SEARCH AND SELECT IOS VERSION*/
+        .ipad{
+            padding: 15px;
+            margin-left: 1rem;
+        }
+
+        .container{
+            justify-content: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            text-align: justify;
+            font-size: 17px;
+            font-weight: lighter;
+        }
+}
+
+/*FOR SMALL SCREEN LAPTOPS*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+        /*THE CLASS FOR THE LIST*/
+        .head{
+            display: flex;
+            padding: 5px;
+            justify-content: left ;
+            background-color: rgb(197, 189, 189);   
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            margin-left: 2px;
+        }
+    
+        /*The class for the A  list at the top*/
+        .mac{
+            margin: 15px;
+            color: black;
+            font-size: 25px;
+        }
+        .the-search,.search-button{
+            display: none;
+        }
+
+        /*FOR SEARCH BUTTONS*/
+        #as-search-input{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 7px;
+            font-size: 1rem;
+            border-radius: 10px;
+            border: solid 1px;
+            padding-right: 5rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+    
+        /*Control theapple delivery...*/
+        h1{
+            text-align: center;
+            font-style: 1.3 rem;
+            font-weight: bold;  
+        }
+
+        /*THE DIV CLASS FOR THE SEARCH AND SELECT IOS VERSION*/
+        .ipad{
+            padding: 15px;
+            margin-left: 1rem;
+        }
+
+        .container{
+            justify-content: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            text-align: justify;
+            font-size: 17px;
+            font-weight: lighter;
+        }
+        p{
+            font-size: 21px;
+        }   
+}
+
+/*LAPTOP AND DESKTOP*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+      /*THE CLASS FOR THE LIST*/
+      .head{
+        display: flex;
+        padding: 5px;
+        justify-content: left ;
+        background-color: rgb(197, 189, 189);   
+    }
+    ul{
+        display: inline-flex;
+        list-style: none;
+        margin-left: 2px;
+    }
+
+    /*The class for the A  list at the top*/
+    .mac{
+        margin: 15px;
+        color: black;
+        font-size: 25px;
+    }
+
+    /*FOR SEARCH BUTTONS*/
+    #as-search-input{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 7px;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: solid 1px;
+        padding-right: 5rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*Control theapple delivery...*/
+    h1{
+        text-align: center;
+        font-style: 1.3 rem;
+        font-weight: bold;  
+    }
+
+    /*THE DIV CLASS FOR THE SEARCH AND SELECT IOS VERSION*/
+    .ipad{
+        padding: 15px;
+        margin-left: 1rem;
+    }
+
+    .container{
+        justify-content: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: justify;
+        font-size: 17px;
+        font-weight: lighter;
+    }
+    p{
+        font-size: 21px;
+    }   
+
+    
+}

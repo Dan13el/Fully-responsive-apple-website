@@ -1,0 +1,639 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: #e24be7;
+    background: linear-gradient(45deg, pink, purple, blue);
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+/*What is apple home pods*/
+.apple-home-pods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apple-home-pods img{
+    width: 300px;
+    height: 200px;
+
+}
+
+.apple-home-pods,p{
+    font-size: 25px;
+    text-align: left;
+}
+
+/*THE HOMEPODS MINI*/
+.mini{
+    font-size: 3rem;
+    color: purple;   
+    text-align: center;
+    margin: 0;
+}
+
+.apple-home-pods-mini{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apple-home-pods-mini img{
+    width: 300px;
+    height: 200px;
+
+}
+
+.apple-home-pods-mini,p{
+    font-size: 20px;
+    text-align: left;
+}
+/*The hand image*/
+
+.hand-image img{
+    width: 100%;
+    height: 550px;
+}
+
+/*Variety of colors*/
+.variety-of-colors{
+    display: flex;
+    justify-content: space-between;
+}
+
+.variety-of-colors img{
+    width: 300px;
+    height: 200px;
+
+}
+
+.variety-of-colors,p{
+    font-size: 20px;
+    text-align: left;
+}
+
+/*HOMEPODS VS HOMEPODS MINI*/
+.homepods-homepods-mini img{
+    width: 100%;
+    height: 550px;
+}
+
+
+/*HOMEPODS VS HOMEPODS MINI THEIR POINTS*/
+.home-pods-vs-home-pods-mini{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*homepods-point*/
+.homepods-points {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.homepods-points img{
+    width: 300px;
+    height: 200px;
+}
+
+.homepods-points p{
+    font-size: 20px;
+    text-align: left;
+}
+/*homepods-mini-points*/
+
+.homepods-mini-points{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.homepods-mini-points img{
+    width: 300px;
+    height: 200px;
+}
+
+.homepods-mini-points p{
+    font-size: 20px;
+    text-align: left;
+}
+
+.foot{
+    color: white;
+    background: linear-gradient(45deg, purple, red,  blue);
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+/*RESPONSIVE WEB SITE*/
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: white;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h1{
+        color: #e24be7;
+        background: linear-gradient(45deg, pink, purple, blue);
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+
+    /*What is apple home pods*/
+    .apple-home-pods{
+        display: block;
+        justify-content: center;
+    }
+    
+    .apple-home-pods img{
+        width: 180px;
+        height: 150px;
+
+    }
+
+    .apple-home-pods,p{
+        font-size: 13px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: justify;
+    }
+    /*THE HOMEPODS MINI*/
+    .mini{
+        font-size: 22px;
+        color: purple;   
+        text-align: center;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    .apple-home-pods-mini{
+        display: block;
+        justify-content: center;
+    }
+
+    .apple-home-pods-mini img{
+        width: 180px;
+        height: 150px;
+
+    }
+
+    .apple-home-pods-mini,p{
+        font-size: 13px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: justify;
+    }
+
+    /*The hand image*/
+
+    .hand-image img{
+        display: none;
+    }
+
+    /*Variety of colors*/
+    .variety-of-colors{
+        display: block;
+        justify-content: center;
+    }
+
+    .variety-of-colors img{
+        width: 180px;
+        height: 150px;
+
+    }
+
+    .variety-of-colors,p{
+        font-size: 13px;
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    /*HOMEPODS VS HOMEPODS MINI*/
+    .homepods-homepods-mini img{
+        display: none;
+    }
+
+
+    /*HOMEPODS VS HOMEPODS MINI THEIR POINTS*/
+    .home-pods-vs-home-pods-mini{
+        display: block;
+        justify-content: center;
+    }
+
+    /*HOMEPODS VS HOMEPODS MINI THEIR POINTS*/
+    .home-pods-vs-home-pods-mini{
+        display: block;
+        justify-content: center;
+    }
+
+    /*homepods-point*/
+    .homepods-points {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .homepods-points img{
+        width: 180px;
+        height: 150px;
+    }
+
+    .homepods-points p{
+        font-size: 13px;
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    /*homepods-mini-points*/
+
+    .homepods-mini-points{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .homepods-mini-points img{
+        width: 180px;
+        height: 150px;
+    }
+
+    .homepods-mini-points p{
+        font-size: 13px;
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .foot{
+        font-size: 1rem;
+        padding: 5px;
+        margin-top: 10px;
+        color: blue;
+        background: none;
+        
+    }
+
+    }
+
+
+
+    
+
+    /*For  Ipad*/
+    @media screen and (min-width: 521px) and (max-width: 767px) {
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: white;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            color: #e24be7;
+            background: linear-gradient(45deg, pink, purple, blue);
+            font-size: 45px;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+        }
+
+        p{
+            font-size: 18px;
+            margin-left: 7px;
+            margin-right: 7px;
+            text-align: justify;
+
+        }
+
+        img{
+            width: 220px;
+            height: 185px;
+
+        }
+
+    
+        /*What is apple home pods*/
+        .apple-home-pods{
+            display: block;
+            justify-content: center;
+        }
+
+        /*THE HOMEPODS MINI*/
+        .mini{
+            font-size: 22px;
+            color: purple;   
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    
+        .apple-home-pods-mini{
+            display: block;
+            justify-content: center;
+        }
+    
+ 
+        /*The hand image*/
+    
+        .hand-image img{
+            display: none;
+        }
+    
+        /*Variety of colors*/
+        .variety-of-colors{
+            display: block;
+            justify-content: center;
+        }
+    
+        /*HOMEPODS VS HOMEPODS MINI*/
+        .homepods-homepods-mini img{
+            display: none;
+        }
+    
+    
+        /*HOMEPODS VS HOMEPODS MINI THEIR POINTS*/
+        .home-pods-vs-home-pods-mini{
+            display: block;
+            justify-content: center;
+        }
+    
+        /*HOMEPODS VS HOMEPODS MINI THEIR POINTS*/
+        .home-pods-vs-home-pods-mini{
+            display: block;
+            justify-content: center;
+        }
+    
+        /*homepods-point*/
+        .homepods-points {
+            margin-right: 10px;
+            margin-left: 10px;
+        }    
+        
+        /*homepods-mini-points*/
+    
+        .homepods-mini-points{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+ 
+        .foot{
+            font-size: 1rem;
+            padding: 5px;
+            margin-top: 10px;
+            color: blue;
+            background: none;           
+        }
+    
+        }
+
+
+
+        /*For Small screen laptops*/
+
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            body{
+                padding: 0;
+                margin: 0;
+                background-color: white;
+                box-sizing: border-box;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            h1{
+                color: #e24be7;
+                background: linear-gradient(45deg, pink, purple, blue);
+                font-size: 3rem;
+                text-align: center;
+                padding: 15px;
+                margin: 0;
+            }
+    
+            p{
+                font-size: 25px;
+                margin-left: 9px;
+                margin-right: 9px;
+                text-align: justify;
+    
+            }
+    
+            img{
+                width: 250px;
+                height: 190px;
+    
+            }
+    
+        
+            /*What is apple home pods*/
+            .apple-home-pods{
+                display: block;
+                justify-content: center;
+            }
+    
+            /*THE HOMEPODS MINI*/
+            .mini{
+                font-size: 2.2rem;
+                color: purple;   
+                text-align: center;
+                margin-top: 15px;
+                font-weight: bold;
+            }
+        
+            .apple-home-pods-mini{
+                display: block;
+                justify-content: center;
+            }
+        
+     
+            /*The hand image*/
+        
+           
+        
+            /*Variety of colors*/
+            .variety-of-colors{
+                display: block;
+                justify-content: center;
+            }
+        
+            /*HOMEPODS VS HOMEPODS MINI*/
+            .homepods-homepods-mini img{
+                display: none;
+            }
+        
+        
+            /*HOMEPODS VS HOMEPODS MINI THEIR POINTS*/
+            .home-pods-vs-home-pods-mini{
+                display: block;
+                justify-content: center;
+            }
+        
+            /*HOMEPODS VS HOMEPODS MINI THEIR POINTS*/
+            .home-pods-vs-home-pods-mini{
+                display: flex;
+                justify-content: center;
+            }
+        
+            /*homepods-point*/
+            .homepods-points {
+                margin-right: 10px;
+                margin-left: 10px;
+            }    
+            
+            /*homepods-mini-points*/
+        
+            .homepods-mini-points{
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            }
+
+
+            /*THE REST*/
+            @media screen and (min-width: 1025px) {
+                body{
+                    padding: 0;
+                    margin: 0;
+                    background-color: white;
+                    box-sizing: border-box;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                h1{
+                    color: #e24be7;
+                    background: linear-gradient(45deg, pink, purple, blue);
+                    font-size: 3rem;
+                    text-align: center;
+                    padding: 10px;
+                    margin: 0;
+                }
+                
+                /*What is apple home pods*/
+                .apple-home-pods{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .apple-home-pods img{
+                    width: 300px;
+                    height: 200px;
+                
+                }
+                
+                .apple-home-pods,p{
+                    font-size: 25px;
+                    text-align: left;
+                }
+                
+                /*THE HOMEPODS MINI*/
+                .mini{
+                    font-size: 3rem;
+                    color: purple;   
+                    text-align: center;
+                    margin: 0;
+                }
+                
+                .apple-home-pods-mini{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .apple-home-pods-mini img{
+                    width: 300px;
+                    height: 200px;
+                
+                }
+                
+                .apple-home-pods-mini,p{
+                    font-size: 20px;
+                    text-align: left;
+                }
+                /*The hand image*/
+                
+                .hand-image img{
+                    width: 100%;
+                    height: 550px;
+                }
+                
+                /*Variety of colors*/
+                .variety-of-colors{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .variety-of-colors img{
+                    width: 300px;
+                    height: 200px;
+                
+                }
+                
+                .variety-of-colors,p{
+                    font-size: 20px;
+                    text-align: left;
+                }
+                
+                /*HOMEPODS VS HOMEPODS MINI*/
+                .homepods-homepods-mini img{
+                    width: 100%;
+                    height: 550px;
+                }
+                
+                
+                /*HOMEPODS VS HOMEPODS MINI THEIR POINTS*/
+                .home-pods-vs-home-pods-mini{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                /*homepods-point*/
+                .homepods-points {
+                    margin-right: 10px;
+                    margin-left: 10px;
+                }
+                .homepods-points img{
+                    width: 300px;
+                    height: 200px;
+                }
+                
+                .homepods-points p{
+                    font-size: 20px;
+                    text-align: left;
+                }
+                /*homepods-mini-points*/
+                
+                .homepods-mini-points{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                .homepods-mini-points img{
+                    width: 300px;
+                    height: 200px;
+                }
+                
+                .homepods-mini-points p{
+                    font-size: 20px;
+                    text-align: left;
+                }
+                
+                .foot{
+                    color: white;
+                    background: linear-gradient(45deg, purple, red,  blue);
+                    font-size: 1rem;
+                    padding: 10px;
+                    margin-top: 10px;
+                    
+                }
+                
+                
+            }
+

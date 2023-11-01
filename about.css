@@ -1,0 +1,375 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+/*PICTURES AT THE TOP*/
+.pictures-at-the-top{
+    display: inline-flex;
+    justify-content: center;
+}
+.pictures-at-the-top img{
+    width: 280px;
+    height: 200px;
+}
+
+
+h1{
+    background-color: white;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+p{
+    font-size: 3rem;
+    margin-left: 1rem;  
+}
+
+.what-is-new{
+    display: inline-flex;
+}
+
+.what-is-new img{
+    width: 350px;
+    height: 300px;
+}
+.text{
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.battery-pic img{
+    width: 100%;
+    height: 350px;
+}
+
+.personalized img{
+    width: 500px;
+    height: 250px;
+}
+
+.more-on-airpod-pro img{
+    width: 90%;
+    height: 370px;
+}
+.last-photos{
+    display: flex;
+}
+
+
+.last-photos img{
+    width: 400px;
+    height: 250px;
+}
+
+.foot{
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+/*RESPONSIVE WEBSITE*/
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    body{
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+    }
+
+    img{
+        width: 100%;
+        height: 50px;
+    }
+    .no-mobile,.no-mobile1{
+        display: none;
+    }
+    
+    /*PICTURES AT THE TOP*/
+    .pictures-at-the-top{
+        display: flex;    
+    }
+       
+    h1{
+        background-color: white;
+        text-align: center;
+        font-size: 1.7rem;
+        color: black;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    p{
+        font-size: 1.4rem;
+        margin-left: 10px;  
+    }
+    
+    .what-is-new{
+        display: block;
+    }
+    
+   
+    .text{
+        text-align: justify;
+        margin-left: 7px;
+        margin-right: 7px;
+        font-size: 10px;
+    }
+    .personalized img{
+        width: 100%;
+        height: 250px;
+    }
+   
+    .last-photos{
+        display: block;
+    }
+
+    .last-photos img{
+        width: 100%;
+    }
+    
+    .foot{
+        background-color: white;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+    }
+    
+}
+
+
+@media screen and (min-width: 520px) and (max-width: 767px){
+
+    body{
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+
+    img{
+        width: 100%;
+        height: 100px;
+    }
+    .no-mobile,.no-mobile1{
+        display: none;
+    }
+    
+    /*PICTURES AT THE TOP*/
+    .pictures-at-the-top{
+        display: flex;    
+    }
+       
+    h1{
+        background-color: white;
+        text-align: center;
+        font-size: 3rem;
+        color: black;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    p{
+        font-size: 1.7rem;
+        margin-left: 14px;  
+    }
+    
+    .what-is-new{
+        display: block;
+    }
+    
+   
+    .text{
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        
+    }
+    .personalized img{
+        width: 100%;
+        height: 250px;
+    }
+   
+    .last-photos{
+        display: block;
+    }
+
+    .last-photos img{
+        width: 100%;
+    }
+    
+    .foot{
+        background-color: white;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body{
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+
+    img{
+        width: 100%;
+        height: 100px;
+    }
+    .no-mobile1{
+        display: none;
+    }
+    
+    /*PICTURES AT THE TOP*/
+    .pictures-at-the-top{
+        display: flex;    
+    }
+       
+    h1{
+        background-color: white;
+        text-align: center;
+        font-size: 3rem;
+        color: black;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    p{
+        font-size: 1.7rem;
+        margin-left: 14px;  
+    }
+    
+    .what-is-new{
+        display: flex;
+    }
+    
+   
+    .text{
+        text-align: justify;
+        margin-left: 13px;
+        margin-right: 13px;
+        font-size: 15px;
+        
+    }
+    .personalized img{
+        width: 100%;
+        height: 250px;
+    }
+   
+    .last-photos{
+        display: block;
+    }
+
+    .last-photos img{
+        width: 100%;
+    }
+    
+    .foot{
+        background-color: white;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+
+    body{
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+
+    img{
+        width: 100%;
+        height: 100px;
+    }
+    
+    
+    /*PICTURES AT THE TOP*/
+    .pictures-at-the-top{
+        display: flex;    
+    }
+       
+    h1{
+        background-color: white;
+        text-align: center;
+        font-size: 3rem;
+        color: black;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    p{
+        font-size: 1.7rem;
+        margin-left: 14px;  
+    }
+    
+    .what-is-new{
+        display: flex;
+    }
+    
+   
+    .text{
+        text-align: justify;
+        margin-left: 13px;
+        margin-right: 13px;
+        font-size: 15px;
+        
+    }
+    .personalized img{
+        width: 100%;
+        height: 250px;
+    }
+   
+    .last-photos{
+        display: block;
+    }
+
+    .last-photos img{
+        width: 100%;
+    }
+    
+    .foot{
+        background-color: white;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+    }
+   
+
+
+}
+
+
+
